@@ -39,7 +39,7 @@
         </item>
         <item name="acqSubmitAmountEditTextStyle">@style/AcquiringEditTextStyle.Custom</item>
         <item name="acqViewHorizontalOffset">16dp</item>
-        <item name="acqScreenViewType">expandable</item>
+        <item name="acqScreenViewType">fullscreen</item>
     </style>
 
     <style name="AcquiringTheme.AttachCard.Custom" parent="AcquiringTheme.Custom">
