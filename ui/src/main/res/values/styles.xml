@@ -44,7 +44,7 @@
         </item>
         <item name="acqSubmitAmountEditTextStyle">@style/AcquiringEditTextStyle</item>
         <item name="acqViewHorizontalOffset">@dimen/acq_content_margin_horizontal</item>
-        <item name="acqScreenViewType">expandable</item>
+        <item name="acqScreenViewType">fullscreen</item>
     </style>
 
     <style name="AcquiringTheme" parent="AcquiringTheme.Base">
@@ -105,6 +105,7 @@
 
     <style name="AcquiringEmailStyle" parent="AcquiringEditTextStyle">
         <item name="android:paddingTop">@dimen/acq_email_padding</item>
+        <item name="android:visibility">gone</item>
     </style>
 
     <style name="AcquiringButtonStyle.Base" parent="Base.TextAppearance.AppCompat.Widget.Button">
