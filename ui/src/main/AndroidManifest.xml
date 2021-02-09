@@ -24,7 +24,7 @@
         <activity
             android:name=".ui.activities.PaymentActivity"
             android:screenOrientation="unspecified"
-            android:theme="@style/AcquiringTheme"
+            android:theme="@style/AcquiringTheme.Base"
             android:windowSoftInputMode="adjustNothing" />
 
         <activity
